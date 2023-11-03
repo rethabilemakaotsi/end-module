@@ -4,23 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
 </head>
 <body class="bg-light">
-  <nav class="navbar navbar-light fixed-top bg-light shodow-sm">
+  <div class="homepage">
+  <nav class="navbar navbar-light fixed-top  shodow-sm">
     <div class="container-lg">
       <a class="navbar-brand text-danger fw-bold fs-4" href="#">MyPORT</a>
       <div class="dropdown">
         <button  class="btn btn-secondary btn-danger  custom-dropdown-button " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bars"></i>
+          <i class="navbar-toggler-icon"></i>
         </button>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" href="#home">home</a></li>
           <li><a class="dropdown-item" href="#about">about</a></li>
           <li><a class="dropdown-item" href="#education">education</a></li>
-          <li><a class="dropdown-item" href="#projects">education</a></li>
+
+          <li><a class="dropdown-item" href="#projects">projects</a></li>
+
           <li><a class="dropdown-item" href="#testmonial">testmonials</a></li>
           <li><a class="dropdown-item" href="#contact">contact</a></li>
         </ul>
@@ -33,7 +38,10 @@
       <div class="row  min-vh-100 align-items-center align-content-center" >
         <div class="col-md-6  mt-5 mt-md-0 ">
           <div class="home-img text-center" >
-            <img src="Rm.jpg"  class="rounded-circle mw-100" alt="Rm" height="200px" width="200px">
+            <img src="https://i.postimg.cc/Jzpvr2vt/Rm.jpg"  class="rounded-circle mw-100" alt="Rm" height="200px" width="200px">
+            
+           
+            
           </div>
 
         </div>
@@ -51,9 +59,10 @@
       </div>
 
      </div>
+    
    </section>
 
-   <section class="about bg-white py-5" id="about">
+   <section class="about text-danger py-5 custom-border" id="about">
     <div class="container-lg py-4">
       <div class="row justify-content-center">
         <div class="col-lg-8 " >
@@ -83,7 +92,7 @@
           </div>
         </div>
         <div class=" image col-md-6">
-          <img src="roadmap.png" alt="roadmap" class="img-fluid">
+          <img src="https://i.postimg.cc/dt2KYnJT/roadmap.png" alt="roadmap" class="img-fluid">
         </div>
       </div>
       
@@ -91,65 +100,200 @@
     </div>
    </section>
 
-   <section class="education bg-white py-5" id="education">
+
+   <section class="education  py-5" id="education">
     <div class="container-lg py-4">
+
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">Education</h2>
+            <h2 class="fw-bold mb-5  text-danger">Education</h2>
           </div>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-md-6 col-lg-4">
-          <div class="card shadow-md">
-            <div class="red-thumbnail">
-              <img src="chris hanii.png" alt="chris hanii">
+
+      <article class="row">
+      
+        <div class="col-4">
+          <div class="education-items shadow-md p-4 rounded bg-white">
+            <div class="img my-3 text-danger fs-2">
+              <img src="https://i.postimg.cc/BvY0z64Y/chris-hanii.png" alt="chris hanii">
             </div>
-            <div class="card-body">
-              <h5 class="card-title">High school graduation</h5>
-              <p class="card-text">Year: 2014-2023</p>
+              <h3 class="fs-5 p-2">High school graduation</h3>
+              <p class="text-muted">Year: 2014-2018</p>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card shadow-md">
-            <div class="red-thumbnail">
-              <img src="social development.png" alt="social development">
+        
+
+        <div class="col-4">
+          <div class="education-items shadow-md p-4 rounded bg-white">
+            <div class="img my-3 text-danger fs-2">
+              <img src="https://i.postimg.cc/wvvrRQKF/social-development.png" alt="social development">
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Computer course</h5>
+              <h3 class="fs-5 p-2 ">Computer course</h3>
               <p class="card-text">Year: 2020</p>
             </div>
           </div>
-        </div>
+
+          
+          <div class="col-4">
+            <div class="education-items shadow-md">
+              <div class="img my-3 text-danger fs-2 ">
+                <img src="https://i.postimg.cc/4xpRXPZ9/codetelligence.jpg" alt="Codetelligence">
+              </div>
+              <h5 class="fs-5 p-2">Soft-ware Development NQF 5</h5>
+              <p class="text-muted">Year: 2023</p>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="row text-center">
-        <div class="col-md-6 col-lg-4">
-          <div class="card shadow-md">
-            <div class="red-thumbnail">
-              <img src="codetelligence.jpg" alt="Codetelligence">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Soft-Development NQF 5</h5>
-              <p class="card-text">Year: 2023</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card shadow-md">
-            <div class="red-thumbnail">
-              <img src="lifechoices.jpg" alt="Life choices">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Full-Stake Development</h5>
-              <p class="card-text">Year: 2023</p>
-            </div>
-          </div>
-        </div>
+        
+        
+    </section>
+    
+  
+  <section class="projects py-5" id="projects">
+    <h2 class="header text-center text-danger"> projects</h2>
+    <div class="p">
+    <div class="card rounded-1" style="width: 18rem;">
+      <img src="https://i.postimg.cc/X7Zc1PNW/netflix-1.png..." class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">Netflix Landing Page</h5>
+        <p class="card-text text-muted">Made this landing page using HTML and CSS</p>
+        <a target="_blank" href="https://github.com/rethabilemakaotsi/netflix.git" class="btn btn-danger">Github</a>
+        <a  target="_blank" href="netflix-git-main-rethabilemakaotsis-projects.vercel.app" class="btn btn-danger">vercel</a>
+        
       </div>
     </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.postimg.cc/cLShKmZN/bakery-shop.png..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">e-commerce website</h5>
+        <p class="card-text text-muted">This was my first projects using HTMl and CSS</p>
+        <a target="_blank" href="https://github.com/rethabilemakaotsi/challenge17.git" class="btn btn-danger">github</a>
+        <a  target="_blank" href="challenge17-git-main-rethabilemakaotsis-projects.vercel.app" class="btn btn-danger">vercel</a>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.postimg.cc/g0B3Kq9j/3d-calculator-1.png..." class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">calculater</h5>
+        <p class="card-text text-muted">Made this calculater using HTML and CSS</p>
+        <a target="_blank" href="https://github.com/rethabilemakaotsi/Calculator.git" class="btn btn-danger">github</a>
+        <a target="_blank" href="calculator-git-main-rethabilemakaotsis-projects.vercel.app" class="btn btn-danger">vercel</a>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.postimg.cc/yx09BMD3/keyboard-1.png..." class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">keyboard</h5>
+        <p class="card-text text-muted">Made this using Html and <i class="el el-css"></i></p>
+        <a target="_blank" href="https://github.com/rethabilemakaotsi/keyboard.git" class="btn btn-danger">github</a>
+        <a target="_blank" href="keyboard-wtad-meee61yi8-rethabilemakaotsis-projects.vercel.app" class="btn btn-danger">vercel</a>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.postimg.cc/5ykc4RD1/dumbell.png..." class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">fitnessHub website</h5>
+        <p class="card-text text-muted">MY first website i made using Bootstrap</p>
+        <a target="_blank" href="https://github.com/rethabilemakaotsi/fitHub.git" class="btn btn-danger">github</a>
+       
+        
+      </div>
+    </div>
+  </div>
   </section>
-</body>
-</html>
+  <section class="testmonials   py-5" id="testmonial">
+    <h2 class="test text-danger">Testmonials</h2>
+    <div class="d-flex align-items-center">
+      <div class="flex-shrink-0">
+        <img src="https://i.postimg.cc/k5zsJDrh/Whats-App-1kd.jpg" >
+        <p>Sisipho Mafrika</p>
+      </div>
+      <div class="flex-grow-1 ms-3 text-muted">
+        "Despite her introverted nature Rethabile's wisdom and empathy shine through, making her
+        a cherished friend and an inspiration."
+      </div>
+    </div>
+    
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="https://i.postimg.cc/fLM4vHyN/silel.jpg" >
+          <p>Sivelele Nkamane</p>
+        </div>
+        <div class="flex-grow-1 ms-3 text-muted">
+          "Rethabile, the introvert,posseses a remarkable ability to listen and understand, make her the go to confident for those seeking genuine connections."
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="https://i.postimg.cc/hthtLtwr/DSC-0316.jpg"  >
+          <p>Anathi Josefu</p>
+        </div>
+        <div class="flex-grow-1 ms-3 text-muted">
+          "Rethabile with a hear1t of gold, quitely but profoundly imapct those around her with her thoughful presence."
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="https://i.postimg.cc/jjmww7SP/AZA.jpg"  >
+          <p>Azasiphe Ndoro</p>
+        </div>
+        <div class="flex-grow-1 ms-3 text-muted">
+          "Her kindness,warmth, and ability to make even the toughest day brighter are few of the reason
+          why Rethabile is not just a good friend but invaluable part of my life."
+        </div>
+      </div>
+    </section>
+
+      <section class="contact section" id="contact">
+       <div class="contact-content">
+        <h2>contact</h2>
+        <div class="form-container">
+        
+            <form action="https://formspree.io/f/{form_id}" method="post">
+              <label for="First name">First name</label>
+              <input name="first name" id="firstname" type="first name">
+              <label for="surname">Surname</label>
+              <input name="surname" id="surname" type="surname">
+              <label for="email">Your Email</label>
+              <input name="Email" id="email" type="email">
+              <button type="submit bg-danger">Submit</button>
+            </form>
+
+        </div>
+      </div>
+      <div class="contact-details">
+        <i class="bi bi-geo-alt-fill">63706 Lulamile Dantile<br> Makhaza <br> khayelitsha<br>7784
+        </i>
+       <br> <i class="bi bi-telephone"> 0624300882</i><br>
+        <i class="bi bi-envelope-at">rethabilemakaotsi17@gmail.com</i><br>
+        <i class="bi bi-github"></i>
+        <i class="bi bi-linkedin"></i>
+       
+      </div>
+      
+    
+      
+     
+      <footer>
+        <div class="footer">
+          <p>@by rethabilemakaotsi</p>
+        </div>
+          
+        
+      </footer>
+      </section>
+   
+   
   
+      
+  </div>
+</body>
+
+</html>
+
